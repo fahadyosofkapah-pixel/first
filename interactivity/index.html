@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>interacivity</title> 
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <h1 class="text-center text-red-800 font-bold">interacivity</h1>
+    <!-- hover state style -->
+    <button class="bg-red-800 text-black-800 px-4 py-3 my-5  mx- rounded hover:bg-gray-400 hover:text-black-500">submit</button>
+          <!-- focus state style -->
+    <button class="bg-green-950 text-black-800 px-4 py-3 my-5  mx- rounded focus:bg-gray-400 focus:text-black-500">submit</button>
+    <!-- active state style  -->
+     <button class="bg-blue-950 text-black-800 px-4 py-3 my-5  mx- rounded active:bg-blue-400 active:text-black-500">submit</button>
+     <!-- group hover -->
+      <div class="border rounded p-4 group">
+        <h1 class="bg-blue-300 p-8 text-center group-hover:bg-red-400">korodhso aqooon </h1>
+        <p class="group-hover:text-italic">Lorem ipsum dolor, sit amet <br> consectetur adipisicing<br> elit. In, quae?</p>
+       </div> <!-- pseudo class -->
+         <button class=" disabled px-3 rounded disabled:bg-green-950">button 1</button>
+         <!-- cursor -->
+          <button class="bg-blue-400 px-3 py-3 rounded text-white-600 cursor-pointer">submit</button>
+          <button class="bg-blue-400 px-3 py-3 rounded text-white-600 cursor-not-allowed">confirm</button>
+          <button class="bg-blue-400 px-3 py-3 rounded text-white-600 cursor-progress">loading</button>
+
+          <button class="bg-blue-400 px-3 py-3 rounded text-white-600 cursor-all-scroll">all scrol</button>
+          <!-- user select -->
+           <div class="select-none">Lorem ipsum dolor sit.</div>
+           <div class="select-auto">Lorem ipsum dolor sit.</div>
+           <div class="select-text">Lorem ipsum dolor sit.</div>
+           <div class="select-all">Lorem ipsum dolor sit.</div>
+
+</body>
+</html>
